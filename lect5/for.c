@@ -40,17 +40,17 @@ int main(){
     // }
 
    //sum of digits in number
-   int sum=0;
-   int a;
-   printf("enter any number: ");
-   scanf("%d",&a);
-   while(a>0)
-   {
-     int lastDigit;
-     lastDigit=a%10;
-     sum=sum+lastDigit;
-     a=a/10;
-   }
-   printf("sum=%d",sum);
+//    int sum=0;
+//    int a;
+//    printf("enter any number: ");
+//    scanf("%d",&a);
+//    while(a>0)
+//    {
+//      int lastDigit;
+//      lastDigit=a%10;
+//      sum=sum+lastDigit;
+//      a=a/10;
+//    }
+//    printf("sum=%d",sum);
    
-}
+// }
