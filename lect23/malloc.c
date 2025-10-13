@@ -2,6 +2,7 @@
 #include <stdlib.h> //for functions of DMA(dynamic memory allocation)
 int main(){
 
+    //malloc -> [_,_,_,_] memory allocation like this and it takes garbage value in by default
     //make requried memory then assign values in it
     // int n;
     // printf("enter size :");
