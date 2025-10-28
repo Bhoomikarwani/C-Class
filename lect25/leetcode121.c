@@ -1,24 +1,22 @@
 #include <stdio.h>
 int main(){
     //best time to buy and sell stock
-    int prices[6]={7,0,5,3,6,4};
-    int min=prices[0];
+    int prices[6]={7,1,5,3,6,4};  //let humne 0 stock buy kiye then usko maximum 6 mai sell kiya
+    int min=prices[0];            //toh profit 6-0=6
     
-    int j=0;
+    int maxP=0;
     for(int i=1;i<6;i++){
         if(prices[i]<min){
             min=prices[i];
-            j++;
+        }
+        else{
+            int profit=prices[i]-min;
+            if(profit>maxP){
+                maxP=profit;
+            }
         }
     }
-    int max=prices[j];
-    for(int i=j;i<6;i++){
-        
-        if(prices[i]>max){
-            max=prices[i];
-        }
-    }
-    int profit=max-min;
-    printf("%d",profit);
+    
+    printf("%d",maxP);
 
 }
