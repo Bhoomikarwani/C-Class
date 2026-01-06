@@ -26,6 +26,7 @@ int main(){
 // int length=strlen(name);
 // printf("length of string = %d",length);
 
+
 //palindrome
 char name[50];
 printf("enter your name:");
