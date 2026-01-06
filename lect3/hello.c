@@ -19,15 +19,15 @@ int main()
 //    int a;
 //    printf("enter num = ");
 //    scanf("%d",&a);
-    // if(a>0){
-    //     printf("Positive");
-    // }
-    // else if(a<0){
-    //     printf("Negative");
-    // }
-    // else{
-    //     printf(" entered number is Zero");
-    // }
+//     if(a>0){
+//         printf("Positive");
+//     }
+//     else if(a<0){
+//         printf("Negative");
+//     }
+//     else{
+//         printf(" entered number is Zero");
+//     }
 
 
     //Simple Calculator
