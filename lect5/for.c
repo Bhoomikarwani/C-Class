@@ -33,6 +33,7 @@ int main(){
     // }
     // printf("sum of numbers from 1 to 10: %d",sum);
 
+    
     // //table of 5
     // for(int i=1;i<10;i++)
     // {
@@ -53,4 +54,4 @@ int main(){
 //    }
 //    printf("sum=%d",sum);
    
-// }
+ }
