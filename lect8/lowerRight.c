@@ -1,4 +1,5 @@
-  #include <stdio.h>
+
+#include <stdio.h>
   int main(){
   
 //   for(int i=0;i<3;i++){
@@ -12,7 +13,7 @@
 //     }
 
     for(int i=0;i<3;i++){
-        for(int j=3;j>i;j--){
+        for(int j=3;j>i+1;j--){
             printf(" ");
         }
         for(int k=0;k<=i;k++){
